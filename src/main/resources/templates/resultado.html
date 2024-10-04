@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Resultado</title>
+</head>
+<body>
+<h1>Información del Pokémon</h1>
+<p>Id: <span th:text="${pokemon.id}"></span></p>
+<p>Nombre: <span th:text="${pokemon.name}"></span></p>
+<p>Altura: <span th:text="${pokemon.height}"></span></p>
+<p>Peso: <span th:text="${pokemon.weight}"></span></p>
+<a th:href="@{/}">Buscar otro Pokémon</a>
+</body>
+</html>

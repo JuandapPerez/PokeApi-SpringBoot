@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Buscar Pokémon</title>
+</head>
+<body>
+<h1>Buscar Pokémon</h1>
+<form action="#" th:action="@{/buscar}" method="post">
+    <label for="nombre">Nombre del Pokémon:</label>
+    <input type="text" id="nombre" name="nombre">
+    <button type="submit">Buscar</button>
+</form>
+</body>
+</html>
